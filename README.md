@@ -34,6 +34,26 @@ contratos y su historial de pagos, para que puedas ver todo funcionando de una v
 
 ---
 
+## Publicarlo en Render (gratis)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/juan2052H/pag-web-apartaestudios)
+
+1. Pulsa el botón y entra a Render con tu cuenta de GitHub.
+2. Render lee `render.yaml` y propone el servicio `apartaestudios` (plan gratis). Pulsa **Apply** / **Deploy Blueprint**.
+3. Cuando termine, abre **Logs**: ahí aparece la contraseña inicial del usuario `admin`.
+
+> **Importante en el plan gratis:** el disco de Render es temporal. `datos/db.json` y los
+> archivos subidos se borran cada vez que el servicio se reinicia (por ejemplo, tras 15
+> minutos sin visitas) o se vuelve a desplegar: el sitio vuelve a los datos de ejemplo y se
+> genera una contraseña de `admin` nueva (consúltala en **Logs**). Sirve como demo; para uso
+> real se necesita un plan con disco persistente montado en `datos/` (variable
+> `APARTA_DIR_DATOS`).
+
+Opcional: para enviar los códigos de recuperación por correo, agrega `RESEND_API_KEY` y
+`RESEND_FROM` en **Environment** del servicio.
+
+---
+
 ## Recuperar contraseña por correo (opcional)
 
 Tanto el login del panel como el del portal del inquilino tienen un enlace
