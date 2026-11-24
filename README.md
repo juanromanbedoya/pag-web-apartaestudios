@@ -6,6 +6,8 @@ y un portal privado para cada inquilino.
 
 No usa ninguna dependencia externa: solo Node.js y el navegador.
 
+**🌐 Demo en vivo:** https://pag-web-apartaestudios.onrender.com (plan gratis de Render: la primera visita puede tardar cerca de un minuto y los datos vuelven a los de ejemplo en cada reinicio).
+
 ---
 
 ## Cómo arrancarlo
