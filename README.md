@@ -38,7 +38,7 @@ contratos y su historial de pagos, para que puedas ver todo funcionando de una v
 
 ## Publicarlo en Render (gratis)
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/juan2052H/pag-web-apartaestudios)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/juanromanbedoya/pag-web-apartaestudios)
 
 1. Pulsa el botón y entra a Render con tu cuenta de GitHub.
 2. Render lee `render.yaml` y propone el servicio `apartaestudios` (plan gratis). Pulsa **Apply** / **Deploy Blueprint**.
